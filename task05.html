@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quadratic equation</title>
+    <SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function Calculate(x1, x2) {
+    
+a=eval(form.a.value);
+b=eval(form.b.value);
+c=eval(form.c.value);
+
+var a = prompt("Enter value of A", "");
+var b = prompt("Enter value of B", "");
+var c = prompt("Enter value of C", "");
+
+x1=-b/2/a+Math.pow(Math.pow(b,2)-4*a*c,0.5)/2/a;
+x2=-b/2/a-Math.pow(Math.pow(b,2)-4*a*c,0.5)/2/a;
+
+form.x1.value = x1;
+form.x2.value = x2;
+
+if (form.x1.value == "NaN") form.x1.value="Imag.!";
+if (form.x2.value == "NaN") form.x2.value="Imag.!";
+
+return [x1, x2];
+
+}
+// -->
+</SCRIPT>
+
+</head>
+
+<body>
+
+<center>
+    
+<form name=form>
+    
+<h1>Quadratic Equation:</h1><br><b>Ax<sup>2</sup> + Bx + C = 0</b><br><br>
+
+<b>A = </b>
+<input type=text size=6 name="a"><br>
+
+<b>B = </b> 
+<input type=text size=6 name="b"><br>
+
+<b>C = </b>
+<input type=text size=6 name="c"><br>
+
+<br><br>
+
+<input type=button value="Click" onClick="Calculate(x1, x2)">
+<br><br><br>
+
+<b>X1 = </b>
+<input type=text size=6 name="x1"><br>
+
+<b>X2 = </b>
+<input type=text size=6 name="x2">
+</body>
+</html>
